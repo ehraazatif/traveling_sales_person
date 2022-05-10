@@ -1,0 +1,1 @@
+The traveling salesperson problem, in Python. The approach I took to solve the problem is to first generate all possible permutations of vertices. Then, all permutations that are not valid Hamiltonian cycles are removed from the set of all permutations. Finally, the weight of each cycle is calculated, and the cycle with the smallest weight is returned. 
